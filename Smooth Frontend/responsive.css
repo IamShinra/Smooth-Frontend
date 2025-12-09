@@ -1,0 +1,180 @@
+
+@media (max-width: 1024px) {
+  .inline-padding {
+    padding-inline: 30px;
+  }
+
+  .primary-title {
+    font-size: 3.5rem;
+    line-height: 60px;
+  }
+
+  #recent-project .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  #recent-project .article {
+    width: 220px;
+    height: 370px;
+  }
+
+  #footer .info {
+    gap: 60px;
+  }
+
+  #footer .branding img {
+    width: 140px;
+  }
+
+  .content-title .primary-title {
+    font-size: 3rem;
+  }
+
+  #hero-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  #header .hamburger-menu {
+    display: flex;
+    z-index: 999;
+  }
+
+  #header {
+    padding-block: 10px;
+  }
+
+  #header .scroll-nav .title {
+    display: none;
+  }
+
+
+  .content-title .primary-title {
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+
+  .content-title .sub-title span {
+    font-size: 1rem;
+  }
+
+  .content-title .secondary-title {
+    font-size: 1.8rem;
+    line-height: 35px;
+  }
+
+  #hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding-block: 3rem;
+  }
+
+  #recent-project {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
+  #recent-project .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  #recent-project .article {
+    width: 220px;
+    height: 370px;
+  }
+
+  #recent-project .item h4 {
+    font-size: 1rem;
+    padding-block: 10px;
+  }
+
+  #footer {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  #footer .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  #footer .rights {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer .branding .logos::before,
+  #footer .branding .logos::after {
+    background: transparent;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .inline-padding {
+    padding-inline: 10px;
+  }
+
+  .primary-title {
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+
+  .secondary-title {
+    font-size: 1.3rem;
+  }
+
+  #recent-project .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #recent-project .article {
+    width: 100%;
+    height: auto;
+  }
+
+  .primary-btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 1rem;
+  }
+
+  #footer .info {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer .branding img {
+    width: 120px;
+  }
+}
